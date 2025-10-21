@@ -31,6 +31,8 @@ The proxy:
 - Spawns a goroutine to upload to S3
 - Logs upload success/failure without blocking
 
+![diagram](./diagram.png).
+
 ## Use Cases
 
 - **Persistent Cache**: Ensure processed images are stored durably, even if imgproxy's local cache is cleared
